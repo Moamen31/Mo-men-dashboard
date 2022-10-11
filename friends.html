@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <main class="page d-block d-md-flex min-vh-100">
+        <aside class="py-2 py-md-3 px-2 mb-2 mb-md-0 hide">
+            <button class="toggle-menu d-none d-md-inline-flex position-absolute">
+                <i class="fa-solid fa-bars fs-5"></i>
+            </button>
+            <h1 class="fs-4 position-relative mb-4">Mo'men</h1>
+            <ul class="links-list d-flex justify-content-between d-md-block">
+                <li><a href="index.html"><i class="fa-solid fa-id-badge"></i>
+                        <p>Dashboard</p>
+                    </a></li>
+                <li><a href="settings.html"><i class="fa-solid fa-gear"></i>
+                        <p>Settings</p>
+                    </a></li>
+                <li><a href="profile.html"><i class="fa-solid fa-user"></i>
+                        <p>Profile</p>
+                    </a></li>
+                <li><a href="projects.html"><i class="fa-solid fa-diagram-project"></i>
+                        <p>Projects</p>
+                    </a></li>
+                <li><a href="courses.html"><i class="fa-solid fa-graduation-cap"></i>
+                        <p>Courses</p>
+                    </a></li>
+                <li class="active"><a href="friends.html"><i class="fa-solid fa-users"></i>
+                        <p>Friends</p>
+                    </a></li>
+                <li><a href="files.html"><i class="fa-solid fa-file-lines"></i>
+                        <p>Files</p>
+                    </a></li>
+                <li><a href="plans.html"><i class="fa-regular fa-credit-card"></i>
+                        <p>Plans</p>
+                    </a></li>
+            </ul>
+        </aside>
+        <section class="page-content">
+            <header>
+                <nav class="navbar ">
+                    <div class="container-fluid">
+                        <form class="d-flex position-relative ms-0 ms-md-5" role="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search" placeholder="Type a keyword" aria-label="Search">
+                        </form>
+                        <div class="user d-flex gap-3 align-items-center">
+                            <img class="img-fluid toggle-icon" src="imgs/sun.png" alt="">
+                            <div class="notification position-relative">
+                                <i class="fa-regular fa-bell"></i>
+                            </div>
+                            <img class="img-fluid" src="imgs/user-07.png" alt="">
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="friends py-3 px-1">
+                <div class="main-heading ps-3 pb-4">
+                    <h2 class="position-relative">Friends</h2>
+                </div>
+                <div class="container p-0 mw-100">
+                    <div class="row px-2 gx-2 gy-3">
+                        <div class="columns col-lg-3 col-md-6 friend">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="friend-card">
+                                    <div class="intro text-center">
+                                        <div class="image mx-auto mb-3">
+                                            <img class="img-fluid" src="imgs/news-03.jpg" alt="">
+                                        </div>
+                                        <h5 class="fw-bold mb-1">Ahmed Nasser</h5>
+                                        <p class="fw-semibold">JavaScript Developer</p>
+                                        <div class="contact d-flex gap-1">
+                                            <i class="fa-solid fa-phone"></i>
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <div class="nums mb-2">
+                                            <i class="fa-regular fa-face-smile me-1"></i>
+                                            99 Friend
+                                        </div>
+                                        <div class="nums mb-2">
+                                            <i class="fa-solid fa-list-check me-1"></i>
+                                            15 Projects
+                                        </div>
+                                        <div class="nums">
+                                            <i class="fa-regular fa-newspaper me-1"></i>
+                                            25 Articles
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info d-flex justify-content-between align-items-center mt-1">
+                                        <div class="joined">
+                                            Joined 02/10/2021
+                                        </div>
+                                        <div class="buttons d-flex gap-1">
+                                            <button class="btn btn-primary">Profile</button>
+                                            <button class="btn btn-danger">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-3 col-md-6 friend">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="friend-card">
+                                    <div class="intro text-center">
+                                        <div class="image mx-auto mb-3">
+                                            <img class="img-fluid" src="imgs/news-01.jpg" alt="">
+                                        </div>
+                                        <h5 class="fw-bold mb-1">Omar Fathy</h5>
+                                        <p class="fw-semibold">Cloud Developer</p>
+                                        <div class="contact d-flex gap-1">
+                                            <i class="fa-solid fa-phone"></i>
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <div class="nums mb-2">
+                                            <i class="fa-regular fa-face-smile me-1"></i>
+                                            30 Friend
+                                        </div>
+                                        <div class="nums mb-2">
+                                            <i class="fa-solid fa-list-check me-1"></i>
+                                            11 Projects
+                                        </div>
+                                        <div class="nums">
+                                            <i class="fa-regular fa-newspaper me-1"></i>
+                                            12 Articles
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info d-flex justify-content-between align-items-center mt-1">
+                                        <div class="joined">
+                                            Joined 02/08/2021
+                                        </div>
+                                        <div class="buttons d-flex gap-1">
+                                            <button class="btn btn-primary">Profile</button>
+                                            <button class="btn btn-danger">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-3 col-md-6 friend">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="friend-card">
+                                    <div class="intro text-center">
+                                        <div class="image mx-auto mb-3">
+                                            <img class="img-fluid" src="imgs/news-02.jpg" alt="">
+                                        </div>
+                                        <h5 class="fw-bold mb-1">Omar Ahmed</h5>
+                                        <p class="fw-semibold">Mobile Developer</p>
+                                        <div class="contact d-flex gap-1">
+                                            <i class="fa-solid fa-phone"></i>
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <div class="nums mb-2">
+                                            <i class="fa-regular fa-face-smile me-1"></i>
+                                            80 Friend
+                                        </div>
+                                        <div class="nums mb-2">
+                                            <i class="fa-solid fa-list-check me-1"></i>
+                                            20 Projects
+                                        </div>
+                                        <div class="nums">
+                                            <i class="fa-regular fa-newspaper me-1"></i>
+                                            18 Articles
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info d-flex justify-content-between align-items-center mt-1">
+                                        <div class="joined">
+                                            Joined 02/06/2021
+                                        </div>
+                                        <div class="buttons d-flex gap-1">
+                                            <button class="btn btn-primary">Profile</button>
+                                            <button class="btn btn-danger">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-3 col-md-6 friend">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="friend-card">
+                                    <div class="intro text-center">
+                                        <div class="image mx-auto mb-3">
+                                            <img class="img-fluid" src="imgs/news-03.jpg" alt="">
+                                        </div>
+                                        <h5 class="fw-bold mb-1">Shady Nabil</h5>
+                                        <p class="fw-semibold">Back-End Developer</p>
+                                        <div class="contact d-flex gap-1">
+                                            <i class="fa-solid fa-phone"></i>
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <div class="nums mb-2">
+                                            <i class="fa-regular fa-face-smile me-1"></i>
+                                            70 Friend
+                                        </div>
+                                        <div class="nums mb-2">
+                                            <i class="fa-solid fa-list-check me-1"></i>
+                                            30 Projects
+                                        </div>
+                                        <div class="nums">
+                                            <i class="fa-regular fa-newspaper me-1"></i>
+                                            18 Articles
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info d-flex justify-content-between align-items-center mt-1">
+                                        <div class="joined">
+                                            Joined 28/06/2021
+                                        </div>
+                                        <div class="buttons d-flex gap-1">
+                                            <button class="btn btn-primary">Profile</button>
+                                            <button class="btn btn-danger">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-3 col-md-6 friend">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="friend-card">
+                                    <div class="intro text-center">
+                                        <div class="image mx-auto mb-3">
+                                            <img class="img-fluid" src="imgs/news-01.jpg" alt="">
+                                        </div>
+                                        <h5 class="fw-bold mb-1">Ahmed Nasser</h5>
+                                        <p class="fw-semibold">JavaScript Developer</p>
+                                        <div class="contact d-flex gap-1">
+                                            <i class="fa-solid fa-phone"></i>
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <div class="nums mb-2">
+                                            <i class="fa-regular fa-face-smile me-1"></i>
+                                            99 Friend
+                                        </div>
+                                        <div class="nums mb-2">
+                                            <i class="fa-solid fa-list-check me-1"></i>
+                                            15 Projects
+                                        </div>
+                                        <div class="nums">
+                                            <i class="fa-regular fa-newspaper me-1"></i>
+                                            25 Articles
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info d-flex justify-content-between align-items-center mt-1">
+                                        <div class="joined">
+                                            Joined 02/10/2021
+                                        </div>
+                                        <div class="buttons d-flex gap-1">
+                                            <button class="btn btn-primary">Profile</button>
+                                            <button class="btn btn-danger">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-3 col-md-6 friend">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="friend-card">
+                                    <div class="intro text-center">
+                                        <div class="image mx-auto mb-3">
+                                            <img class="img-fluid" src="imgs/news-04.jpg" alt="">
+                                        </div>
+                                        <h5 class="fw-bold mb-1">Mohammed Ibrahim</h5>
+                                        <p class="fw-semibold">Algprithm Developer</p>
+                                        <div class="contact d-flex gap-1">
+                                            <i class="fa-solid fa-phone"></i>
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <div class="nums mb-2">
+                                            <i class="fa-regular fa-face-smile me-1"></i>
+                                            80 Friend
+                                        </div>
+                                        <div class="nums mb-2">
+                                            <i class="fa-solid fa-list-check me-1"></i>
+                                            30 Projects
+                                        </div>
+                                        <div class="nums">
+                                            <i class="fa-regular fa-newspaper me-1"></i>
+                                            20 Articles
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info d-flex justify-content-between align-items-center mt-1">
+                                        <div class="joined">
+                                            Joined 02/10/2021
+                                        </div>
+                                        <div class="buttons d-flex gap-1">
+                                            <button class="btn btn-primary">Profile</button>
+                                            <button class="btn btn-danger">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-3 col-md-6 friend">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="friend-card">
+                                    <div class="intro text-center">
+                                        <div class="image mx-auto mb-3">
+                                            <img class="img-fluid" src="imgs/news-01.jpg" alt="">
+                                        </div>
+                                        <h5 class="fw-bold mb-1">Amr Henday</h5>
+                                        <p class="fw-semibold">Back-End Developer</p>
+                                        <div class="contact d-flex gap-1">
+                                            <i class="fa-solid fa-phone"></i>
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <div class="nums mb-2">
+                                            <i class="fa-regular fa-face-smile me-1"></i>
+                                            70 Friend
+                                        </div>
+                                        <div class="nums mb-2">
+                                            <i class="fa-solid fa-list-check me-1"></i>
+                                            34 Projects
+                                        </div>
+                                        <div class="nums">
+                                            <i class="fa-regular fa-newspaper me-1"></i>
+                                            35 Articles
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info d-flex justify-content-between align-items-center mt-1">
+                                        <div class="joined">
+                                            Joined 25/07/2021
+                                        </div>
+                                        <div class="buttons d-flex gap-1">
+                                            <button class="btn btn-primary">Profile</button>
+                                            <button class="btn btn-danger">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-3 col-md-6 friend">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="friend-card">
+                                    <div class="intro text-center">
+                                        <div class="image mx-auto mb-3">
+                                            <img class="img-fluid" src="imgs/news-02.jpg" alt="">
+                                        </div>
+                                        <h5 class="fw-bold mb-1">Mahmoud Adel</h5>
+                                        <p class="fw-semibold">Cloud Developer</p>
+                                        <div class="contact d-flex gap-1">
+                                            <i class="fa-solid fa-phone"></i>
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <div class="nums mb-2">
+                                            <i class="fa-regular fa-face-smile me-1"></i>
+                                            81 Friend
+                                        </div>
+                                        <div class="nums mb-2">
+                                            <i class="fa-solid fa-list-check me-1"></i>
+                                            18 Projects
+                                        </div>
+                                        <div class="nums">
+                                            <i class="fa-regular fa-newspaper me-1"></i>
+                                            12 Articles
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info d-flex justify-content-between align-items-center mt-1">
+                                        <div class="joined">
+                                            Joined 02/10/2021
+                                        </div>
+                                        <div class="buttons d-flex gap-1">
+                                            <button class="btn btn-primary">Profile</button>
+                                            <button class="btn btn-danger">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

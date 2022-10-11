@@ -1,0 +1,8 @@
+// position absolute
+@mixin before-after($width, $height) {
+    content: '';
+    position: absolute;
+    width: $width;
+    height: $height;
+    @content;
+}

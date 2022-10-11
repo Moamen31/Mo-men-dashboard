@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <main class="page d-block d-md-flex min-vh-100">
+        <aside class="py-2 py-md-3 px-2 mb-2 mb-md-0 hide">
+            <button class="toggle-menu d-none d-md-inline-flex position-absolute">
+                <i class="fa-solid fa-bars fs-5"></i>
+            </button>
+            <h1 class="fs-4 position-relative mb-4">Mo'men</h1>
+            <ul class="links-list d-flex justify-content-between d-md-block">
+                <li><a href="index.html"><i class="fa-solid fa-id-badge"></i>
+                        <p>Dashboard</p>
+                    </a></li>
+                <li><a href="settings.html"><i class="fa-solid fa-gear"></i>
+                        <p>Settings</p>
+                    </a></li>
+                <li class="active"><a href="profile.html"><i class="fa-solid fa-user"></i>
+                        <p>Profile</p>
+                    </a></li>
+                <li><a href="projects.html"><i class="fa-solid fa-diagram-project"></i>
+                        <p>Projects</p>
+                    </a></li>
+                <li><a href="courses.html"><i class="fa-solid fa-graduation-cap"></i>
+                        <p>Courses</p>
+                    </a></li>
+                <li><a href="friends.html"><i class="fa-solid fa-users"></i>
+                        <p>Friends</p>
+                    </a></li>
+                <li><a href="files.html"><i class="fa-solid fa-file-lines"></i>
+                        <p>Files</p>
+                    </a></li>
+                <li><a href="plans.html"><i class="fa-regular fa-credit-card"></i>
+                        <p>Plans</p>
+                    </a></li>
+            </ul>
+        </aside>
+        <section class="page-content">
+            <header>
+                <nav class="navbar ">
+                    <div class="container-fluid">
+                        <form class="d-flex position-relative ms-0 ms-md-5" role="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search" placeholder="Type a keyword" aria-label="Search">
+                        </form>
+                        <div class="user d-flex gap-3 align-items-center">
+                            <img class="img-fluid toggle-icon" src="imgs/sun.png" alt="">
+                            <div class="notification position-relative">
+                                <i class="fa-regular fa-bell"></i>
+                            </div>
+                            <img class="img-fluid" src="imgs/user-07.png" alt="">
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="profile py-3 px-1">
+                <div class="main-heading ps-3 pb-4">
+                    <h2 class="position-relative">Profile</h2>
+                </div>
+                <div class="container p-0 mw-100">
+                    <div class="row px-2 gx-2 gy-3">
+                        <div class="columns col-lg-12 profile-info">
+                            <div class="wrapper d-flex flex-column flex-md-row pb-4 pt-3  px-3">
+                                <div class="user col-md-3 py-3 pe-md-4 text-center">
+                                    <img class="img-fluid mb-3 mx-auto" src="imgs/user-07.png" alt="">
+                                    <h3 class="mb-2">Mo'men Ashraf</h3>
+                                    <p class="mb-2">Level 20</p>
+                                    <div class="progress mx-auto mb-3">
+                                        <div class="progress-bar"></div>
+                                    </div>
+                                    <div class="star-icons mb-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span>550 Ratings</span>
+                                </div>
+                                <div class="user-informations ">
+                                    <div class="general-information ps-md-4 mb-3 pb-3 border-bottom border-opacity-10">
+                                        <h4>General Information</h4>
+                                        <ul class="d-flex justify-content-between flex-wrap gap-2">
+                                            <li><span class="me-1">Full Name:</span> Mo'men Ashraf</li>
+                                            <li><span class="me-1">Gender:</span> Male</li>
+                                            <li><span class="me-1">Country:</span> Egypt</li>
+                                            <label for="checkbox-general" id="custom-checkbox">
+                                                <input type="checkbox" id="checkbox-general">
+                                                <div class="checkbox-toggle"></div>
+                                            </label>
+                                        </ul>
+                                    </div>
+                                    <div class="personal-information ps-md-4 mb-3 pb-3 border-bottom border-opacity-10">
+                                        <h4>Personal Information</h4>
+                                        <ul class="d-flex justify-content-between flex-wrap gap-2">
+                                            <li><span class="me-1">Email:</span> O@nn.sa</li>
+                                            <li><span class="me-1">Phone:</span> 019123456789</li>
+                                            <li><span class="me-1">Date Of Birth:</span> 31/08/1999</li>
+                                            <label for="checkbox-personal" id="custom-checkbox">
+                                                <input type="checkbox" id="checkbox-personal">
+                                                <div class="checkbox-toggle"></div>
+                                            </label>
+                                        </ul>
+                                    </div>
+                                    <div class="job-information ps-md-4 mb-3 pb-3 border-bottom border-opacity-10">
+                                        <h4>Job Information</h4>
+                                        <ul class="d-flex justify-content-between flex-wrap gap-2">
+                                            <li><span class="me-1">Title:</span> Front End Developer</li>
+                                            <li><span class="me-1">Programming Language:</span> JavaScript</li>
+                                            <li><span class="me-1">Years Of Experience:</span> 5+</li>
+                                            <label for="checkbox-job" id="custom-checkbox">
+                                                <input type="checkbox" id="checkbox-job">
+                                                <div class="checkbox-toggle"></div>
+                                            </label>
+                                        </ul>
+                                    </div>
+                                    <div class="billing-information ps-md-4">
+                                        <h4>Billing Information</h4>
+                                        <ul class="d-flex justify-content-between flex-wrap gap-2">
+                                            <li><span class="me-1">Payment Method:</span> Paypal</li>
+                                            <li><span class="me-1">Email:</span> Mo'men@gmail.com</li>
+                                            <li><span class="me-1">Subscription:</span> Monthly</li>
+                                            <label for="checkbox-billing" id="custom-checkbox">
+                                                <input type="checkbox" id="checkbox-billing">
+                                                <div class="checkbox-toggle"></div>
+                                            </label>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-6 skills">
+                            <div class="wrapper pb-4 pt-3  px-3">
+                                <div class="col-header mb-3">
+                                    <div class="text pt-3">
+                                        <h3>My Skills</h3>
+                                        <span>Complete Skills List</span>
+                                    </div>
+                                </div>
+                                <ul class="skills-list">
+                                    <li>
+                                        <span>HTML</span>
+                                        <span>Pugjs</span>
+                                        <span>HAML</span>
+                                    </li>
+                                    <li>
+                                        <span>CSS</span>
+                                        <span>SASS</span>
+                                        <span>Stylus</span>
+                                    </li>
+                                    <li>
+                                        <span>JavaScript</span>
+                                        <span>TypeScript</span>
+                                    </li>
+                                    <li>
+                                        <span>Vuejs</span>
+                                        <span>Reactjs</span>
+                                    </li>
+                                    <li>
+                                        <span>Jest</span>
+                                        <span>Jasmine</span>
+                                    </li>
+                                    <li>
+                                        <span>PHP</span>
+                                        <span>Laravel</span>
+                                    </li>
+                                    <li>
+                                        <span>Python</span>
+                                        <span>Django</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-6 activity">
+                            <div class="wrapper pb-4 pt-3  px-3">
+                                <div class="col-header mb-3">
+                                    <div class="text pt-3">
+                                        <h3>Latest activities</h3>
+                                        <span>Latest Activities Done By The User</span>
+                                    </div>
+                                </div>
+                                <ul class="activity-list">
+                                    <li class="d-flex gap-2 mb-2 align-items-center">
+                                        <div class="icon">
+                                            <img class="img-fluid" src="imgs/shop.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <h5>Store</h5>
+                                            <p class="mb-0">Bought The Mastering Python Course</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex gap-2 mb-2 align-items-center">
+                                        <div class="icon">
+                                            <img class="img-fluid" src="imgs/academy.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <h5>Academy</h5>
+                                            <p class="mb-0">Got The PHP Certificate</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex gap-2 mb-2 align-items-center">
+                                        <div class="icon">
+                                            <img class="img-fluid" src="imgs/badge.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <h5>Badges</h5>
+                                            <p class="mb-0">Unlocked The 10 Skills Badge</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex gap-2 align-items-center">
+                                        <div class="icon">
+                                            <img class="img-fluid" src="imgs/shop.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <h5>Store</h5>
+                                            <p class="mb-0">Bought The TypeScript Course</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

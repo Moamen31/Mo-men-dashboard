@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <main class="page d-block d-md-flex min-vh-100">
+        <aside class="py-2 py-md-3 px-2 mb-2 mb-md-0 hide">
+            <button class="toggle-menu d-none d-md-inline-flex position-absolute">
+                <i class="fa-solid fa-bars fs-5"></i>
+            </button>
+            <h1 class="fs-4 position-relative mb-4">Mo'men</h1>
+            <ul class="links-list d-flex justify-content-between d-md-block">
+                <li><a href="index.html"><i class="fa-solid fa-id-badge"></i>
+                        <p>Dashboard</p>
+                    </a></li>
+                <li><a href="settings.html"><i class="fa-solid fa-gear"></i>
+                        <p>Settings</p>
+                    </a></li>
+                <li><a href="profile.html"><i class="fa-solid fa-user"></i>
+                        <p>Profile</p>
+                    </a></li>
+                <li><a href="projects.html"><i class="fa-solid fa-diagram-project"></i>
+                        <p>Projects</p>
+                    </a></li>
+                <li><a href="courses.html"><i class="fa-solid fa-graduation-cap"></i>
+                        <p>Courses</p>
+                    </a></li>
+                <li><a href="friends.html"><i class="fa-solid fa-users"></i>
+                        <p>Friends</p>
+                    </a></li>
+                <li class="active"><a href="files.html"><i class="fa-solid fa-file-lines"></i>
+                        <p>Files</p>
+                    </a></li>
+                <li><a href="plans.html"><i class="fa-regular fa-credit-card"></i>
+                        <p>Plans</p>
+                    </a></li>
+            </ul>
+        </aside>
+        <section class="page-content">
+            <header>
+                <nav class="navbar bg-light">
+                    <div class="container-fluid">
+                        <form class="d-flex position-relative ms-0 ms-md-5" role="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search" placeholder="Type a keyword" aria-label="Search">
+                        </form>
+                        <div class="user d-flex gap-3 align-items-center">
+                            <img class="img-fluid toggle-icon" src="imgs/sun.png" alt="">
+                            <div class="notification position-relative">
+                                <i class="fa-regular fa-bell"></i>
+                            </div>
+                            <img class="img-fluid" src="imgs/user-07.png" alt="">
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="files py-3 px-1">
+                <div class="main-heading ps-3 pb-4">
+                    <h2 class="position-relative">Files</h2>
+                </div>
+                <div class="container d-flex flex-column-reverse flex-md-row p-0 mw-100">
+                    <div class="row px-2 gx-2 gy-3">
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-2 col-md-6 file">
+                            <div class="wrapper pb-2 px-3 ">
+                                <div class="file-container">
+                                    <div class="intro">
+                                        <div class="image mb-3">
+                                            <img class="img-fluid mx-auto" src="imgs/pdf-icon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-3 text-center">my-file.pdf</h5>
+                                        <p class="mb-2">Elzero</p>
+                                        <div class="download">
+                                            <i class="fa-solid fa-download"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-info flex-wrap d-flex justify-content-between align-items-center pt-2">
+                                        <div class="date">20/06/2021</div>
+                                        <div class="size">5.5MB</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-3 col-md-4 file-statistics">
+                        <div class="statistics  p-3">
+                            <h3 class="mb-3">Files Statistics</h3>
+                            <ul>
+                                <li class="mb-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
+                                    <div class="file-info d-flex align-items-center">
+                                        <div class="icon me-3" style="background-color: #d2ecfc;">
+                                            <i class="fa-regular fa-file-pdf" style="color: #0075ff;"></i>
+                                        </div>
+                                        <div class="text">
+                                            <h5 class="mb-0">PDF Files</h5>
+                                            <span>130 Files</span>
+                                        </div>
+                                    </div>
+                                    <span>6.5GB</span>
+                                </li>
+                                <li class="mb-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
+                                    <div class="file-info d-flex align-items-center">
+                                        <div class="icon me-3" style="background-color: #d2ecfc;">
+                                            <i class="fa-regular fa-images" style="color: #22c55e;"></i>
+                                        </div>
+                                        <div class="text">
+                                            <h5 class="m-0">Images</h5>
+                                            <span>115 Files</span>
+                                        </div>
+                                    </div>
+                                    <span>3.5GB</span>
+                                </li>
+                                <li class="mb-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
+                                    <div class="file-info d-flex align-items-center">
+                                        <div class="icon me-3" style="background-color: #ffcccc;">
+                                            <i class="fa-regular fa-file-word" style="color: #f44336;"></i>
+                                        </div>
+                                        <div class="text">
+                                            <h5 class="m-0">Word Files</h5>
+                                            <span>110 Files</span>
+                                        </div>
+                                    </div>
+                                    <span>3.2GB</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+                                    <div class="file-info d-flex align-items-center">
+                                        <div class="icon me-3" style="background-color: #f8dfdf;">
+                                            <i class="fa-solid fa-file-csv" style="color: #f59e0b;"></i>
+                                        </div>
+                                        <div class="text">
+                                            <h5 class="m-0">CSV Files</h5>
+                                            <span>99 Files</span>
+                                        </div>
+                                    </div>
+                                    <span>2.9GB</span>
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary d-block mx-auto mt-3"><i class="fa-solid fa-angles-up me-2"></i> Upload</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.courses{
+    .course{
+        .card{
+            img{
+                height: 162px;
+                object-fit: cover;
+            }
+            &-body{
+                h5{
+                    color: $mainColor;
+                    font-size: 16px;
+                }
+                p{
+                    color: $semiGreyColor;
+                    font-size: 13px;
+                }
+                button{
+                    font-size: 14px;
+                }
+                .bottom-info{
+                    span{
+                        font-size: 15px;
+                        font-weight: 500;
+                        color: $semiGreyColor;
+                    }
+                }
+            }
+        }
+    }
+}

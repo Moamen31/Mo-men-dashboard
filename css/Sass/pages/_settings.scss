@@ -1,0 +1,193 @@
+.settings {
+    .control {
+        .toggle-request {
+            h4 {
+                font-size: 15px;
+                color: $mainColor;
+            }
+
+            p {
+                font-size: 13px;
+                color: $semiGreyColor;
+            }
+        }
+
+        textarea {
+            height: 180px;
+            font-size: 14px;
+            resize: none;
+            padding: 10px;
+            outline: none;
+            border: 2px solid $greyColor;
+            border-radius: $borderRadius;
+            color: $semiGreyColor;
+
+            &::placeholder {
+                color: $semiGreyColor;
+                font-size: 13px;
+            }
+        }
+    }
+
+    .general {
+        form {
+
+            label,
+            input {
+                color: $semiGreyColor;
+                font-size: 15px;
+            }
+
+            input {
+                outline: none;
+                border: 2px solid $greyColor;
+                border-radius: $borderRadius;
+                padding: 5px 10px;
+            }
+
+            .email {
+                button {
+                    color: $blueColor;
+                    border: none;
+                    background-color: transparent;
+                    font-size: 14px;
+                    &.update-btn{
+                        color: $redColor;
+                    }
+                }
+            }
+        }
+    }
+
+    .security {
+        &-list {
+            li {
+                &:not(:last-child) {
+                    border-bottom: 1px solid $greyColor;
+                }
+
+                &:nth-child(3) {
+                    .main-button {
+                        button {
+                            background-color: $greyColor;
+                            color: $mainColor;
+                        }
+                    }
+                }
+
+                h4 {
+                    font-size: 15px;
+                    color: $mainColor;
+                }
+
+                p {
+                    font-size: 13px;
+                    color: $semiGreyColor;
+                }
+            }
+        }
+    }
+
+    .social-info {
+        &-list {
+            li {
+                border: 2px solid $greyColor;
+                border-radius: $borderRadius;
+                height: 40px;
+                overflow: hidden;
+
+                .icon {
+                    width: 40px;
+                    height: 100%;
+                    display: grid;
+                    place-items: center;
+                    border-right: 2px solid $greyColor;
+
+                    &.twitter-icon {
+                        background-color: #1da1f2;
+                    }
+
+                    &.facebook-icon {
+                        background-color: #1877f2;
+                    }
+
+                    &.youtube-icon {
+                        background-color: $redColor;
+                    }
+
+                    &.linkedin-icon {
+                        background-color: $blueColor;
+                    }
+
+                    svg {
+                        color: white;
+                    }
+                }
+
+                input {
+                    outline: none;
+                    border: none;
+                    height: 100%;
+                    padding-left: 6px;
+                    font-size: 15px;
+                    background-color: $bodyColor;
+                    transition: $transition;
+
+                    &:focus {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+
+    .widget,
+    .backup {
+        p {
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+
+    .backup {
+        ul {
+            border-bottom: 1px solid $greyColor;
+        }
+
+        .bottom-select {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 10px;
+
+            .box {
+                &.active {
+                    border-color: $blueColor;
+
+                    svg {
+                        color: $blueColor;
+                    }
+
+                    span {
+                        color: $blueColor;
+                    }
+                }
+
+                cursor: pointer;
+                border: 2px solid $greyColor;
+                border-radius: 10px;
+
+                svg {
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                }
+
+                span {
+                    color: $mainColor;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    
+}

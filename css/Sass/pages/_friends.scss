@@ -1,0 +1,65 @@
+.friends{
+    .friend{
+        &-card{
+            padding-top: 30px;
+            .intro{
+                position: relative;
+                .image{
+                    width: 100px;
+                    height: 100px;
+                    overflow: hidden;
+                    border-radius: 50%;
+                    img{
+                        height: 100%;
+                    }
+                }
+                h5{
+                    color: $mainColor;
+                    font-size: 15px;
+                }
+                p{
+                    color: $semiGreyColor;
+                    font-size: 12px;
+                }
+                .contact{
+                    position: absolute;
+                    top: -17px;
+                    left: -3px;
+                    svg{
+                        color: #888;
+                        background-color: $greyColor;
+                        padding: 10px;
+                        border-radius: 50%;
+                        font-size: 14px;
+                        cursor: pointer;
+                        transition: $transition;
+                        &:hover{
+                            color: $blueColor;
+                        }
+                    }
+                }
+            }
+            .info{
+                padding: 10px 0;
+                border-top: 1px solid $greyColor;
+                border-bottom: 1px solid $greyColor;
+                .nums{
+                    font-size: 13px;
+                    font-weight: 500;
+                }
+            }
+            .bottom-info{
+                .joined{
+                    font-size: 12px;
+                    color: $semiGreyColor;
+                }
+                .buttons{
+                    button{
+                        font-size: 12px;
+                        padding: 2px 10px;
+                    }
+                }
+            }
+        }
+    }
+}

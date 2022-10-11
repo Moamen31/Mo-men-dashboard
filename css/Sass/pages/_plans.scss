@@ -1,0 +1,62 @@
+.plans{
+    .plan{
+        .header{
+            height: 100px;
+            &-content{
+                border: 2px solid white;
+                width: 100%;
+                height: 100%;
+                span{
+                    color: white;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+                .price{
+                    color: white;
+                    font-size: 27px;
+                    font-weight: 500;
+                    position: relative;
+                    &::before{
+                        @include before-after(20px, 20px){
+                            content: '$';
+                            left: -13px;
+                            top: 0px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        ul{
+            li{
+                padding: 9px 0;
+                &:not(:last-child){
+                    border-bottom: 1px solid $greyColor;
+                }
+                p{
+                    font-size: 15px;
+                    font-weight: 500;
+                    .check-icon{
+                        color: $greenColor;
+                    }
+                    .x-icon{
+                        color: $redColor;
+                    }
+                }
+                .info-icon{
+                    color: $semiGreyColor;
+                }
+            }
+        }
+        button{
+            color: white;
+            padding: 3px 20px;
+            font-size: 14px;
+        }
+        p{
+            color: $semiGreyColor;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+}

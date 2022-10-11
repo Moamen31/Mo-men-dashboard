@@ -1,0 +1,44 @@
+.projects{
+    .col-header{
+        > span{
+            font-size: 12px;
+        }
+        .text{
+            h5{
+                font-size: 16px;
+            }
+            span{
+                font-size: 14px;
+            }
+        }
+    }
+    .team-imgs{
+        .img{
+            width: 35px;
+            margin-right: -15px;
+        }
+    }
+    .skills-list{
+        li{
+            border-top: 1px solid $greyColor;
+            border-bottom: 1px solid $greyColor;
+            span{
+                font-size: 11px;
+            }
+        }
+    }
+    .project-progress{
+        .progress{
+            height: 6px;
+            width: 60%;
+            .progress-bar{
+                border-radius: $borderRadius;
+            }
+        }
+        span{
+            font-size: 11px;
+            color: $semiGreyColor;
+            font-weight: 500;
+        }
+    }
+}

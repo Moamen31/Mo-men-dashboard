@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <main class="page d-block d-md-flex min-vh-100">
+        <aside class="py-2 py-md-3 px-2 mb-2 mb-md-0 hide">
+            <button class="toggle-menu d-none d-md-inline-flex position-absolute">
+                <i class="fa-solid fa-bars fs-5"></i>
+            </button>
+            <h1 class="fs-4 position-relative mb-4">Mo'men</h1>
+            <ul class="links-list d-flex justify-content-between d-md-block">
+                <li><a href="index.html"><i class="fa-solid fa-id-badge"></i>
+                        <p>Dashboard</p>
+                    </a></li>
+                <li class="active"><a href="settings.html"><i class="fa-solid fa-gear"></i>
+                        <p>Settings</p>
+                    </a></li>
+                <li><a href="profile.html"><i class="fa-solid fa-user"></i>
+                        <p>Profile</p>
+                    </a></li>
+                <li><a href="projects.html"><i class="fa-solid fa-diagram-project"></i>
+                        <p>Projects</p>
+                    </a></li>
+                <li><a href="courses.html"><i class="fa-solid fa-graduation-cap"></i>
+                        <p>Courses</p>
+                    </a></li>
+                <li><a href="friends.html"><i class="fa-solid fa-users"></i>
+                        <p>Friends</p>
+                    </a></li>
+                <li><a href="files.html"><i class="fa-solid fa-file-lines"></i>
+                        <p>Files</p>
+                    </a></li>
+                <li><a href="plans.html"><i class="fa-regular fa-credit-card"></i>
+                        <p>Plans</p>
+                    </a></li>
+            </ul>
+        </aside>
+        <section class="page-content">
+            <header>
+                <nav class="navbar ">
+                    <div class="container-fluid">
+                        <form class="d-flex position-relative ms-0 ms-md-5" role="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search" placeholder="Type a keyword" aria-label="Search">
+                        </form>
+                        <div class="user d-flex gap-3 align-items-center">
+                            <img class="img-fluid toggle-icon" src="imgs/sun.png" alt="">
+                            <div class="notification position-relative">
+                                <i class="fa-regular fa-bell"></i>
+                            </div>
+                            <img class="img-fluid" src="imgs/user-07.png" alt="">
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="settings py-3 px-1">
+                <div class="main-heading ps-3 pb-4">
+                    <h2 class="position-relative">Settings</h2>
+                </div>
+                <div class="container p-0 mw-100">
+                    <div class="row px-2 gx-2 gy-3">
+                        <div class="columns col-lg-4 col-md-6 control">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-3 pt-3">
+                                    <h3>Side Control</h3>
+                                    <span>Control The Website If There Is Maintenance</span>
+                                </div>
+                                <div class="toggle-request d-flex justify-content-between">
+                                    <div class="text">
+                                        <h4 class="mb-1">Website Control</h4>
+                                        <p class="m-0">Open/Close Website And Type The Reason</p>
+                                    </div>
+                                    <label for="checkbox" id="custom-checkbox">
+                                        <input type="checkbox" id="checkbox">
+                                        <div class="checkbox-toggle"></div>
+                                    </label>
+                                </div>
+                                <textarea class="w-100 mt-4" name="message"
+                                    placeholder="Close Message Content"></textarea>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 general">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-3 pt-3">
+                                    <h3>General Info</h3>
+                                    <span>General Information About Your Account</span>
+                                </div>
+                                <form action="" class="d-flex flex-column">
+                                    <label class="mb-1" for="#f-name">First Name</label>
+                                    <input class="mb-2" type="text" name="f-name" id="#f-name">
+                                    <label class="mb-1" for="l-name">Last Name</label>
+                                    <input class="mb-2" type="text" name="l-name" id="#l-name">
+                                    <div class="email d-flex flex-wrap justify-content-between align-items-end gap-2">
+                                        <div class="email-input w-100 d-flex flex-column">
+                                            <label class="mb-1" for="mail">Email</label>
+                                            <input type="email" name="mail" id="mail" value="O@nn.sa" disabled>
+                                        </div>
+                                        <button class="submit-btn pb-2">Change</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 security">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-3 pt-3">
+                                    <h3>Security Info</h3>
+                                    <span>Control The Website If There Is Maintenance</span>
+                                </div>
+                                <ul class="security-list">
+                                    <li class="d-flex justify-content-between align-items-center pt-3 pb-4">
+                                        <div class="text">
+                                            <h4 class="mb-1">Password</h4>
+                                            <p class="m-0">Last Change On 25/10/2021</p>
+                                        </div>
+                                        <div class="main-button">
+                                            <button>Change</button>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex justify-content-between align-items-center pt-3 pb-4">
+                                        <div class="text">
+                                            <h4 class="mb-1">Two-Factor Authentication</h4>
+                                            <p class="m-0">Enable/Disable The Feature</p>
+                                        </div>
+                                        <label for="checkbox-security" id="custom-checkbox">
+                                            <input type="checkbox" id="checkbox-security">
+                                            <div class="checkbox-toggle"></div>
+                                        </label>
+                                    </li>
+                                    <li class="d-flex justify-content-between align-items-center pt-2">
+                                        <div class="text">
+                                            <h4 class="mb-1">Devices</h4>
+                                            <p class="m-0">Check The Login Devices List</p>
+                                        </div>
+                                        <div class="main-button">
+                                            <button>Devices</button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 social-info">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-3 pt-3">
+                                    <h3>Social Info</h3>
+                                    <span>Social Media Information</span>
+                                </div>
+                                <ul class="social-info-list">
+                                    <li class="d-flex justify-content-between align-items-center mb-3">
+                                        <div class="icon twitter-icon">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </div>
+                                        <input class="w-100" type="text" placeholder="Twitter Username">
+                                    </li>
+                                    <li class="d-flex justify-content-between align-items-center mb-3">
+                                        <div class="icon facebook-icon">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </div>
+                                        <input class="w-100" type="text" placeholder="Facebook Username">
+                                    </li>
+                                    <li class="d-flex justify-content-between align-items-center mb-3">
+                                        <div class="icon linkedin-icon">
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </div>
+                                        <input class="w-100" type="text" placeholder="Linkedin Username">
+                                    </li>
+                                    <li class="d-flex justify-content-between align-items-center ">
+                                        <div class="icon youtube-icon">
+                                            <i class="fa-brands fa-youtube"></i>
+                                        </div>
+                                        <input class="w-100" type="text" placeholder="Youtube Username">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 widget">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-3 pt-3">
+                                    <h3>Widgets Control</h3>
+                                    <span>Show/Hide Widgets</span>
+                                </div>
+                                <ul class="widget-list">
+                                    <li class="mb-2">
+                                        <label for="draft" class="d-flex align-items-center gap-2">
+                                            <input id="draft" type="checkbox">
+                                            <p class="mb-0">Quick Draft</p>
+                                        </label>
+                                    </li>
+                                    <li class="mb-2">
+                                        <label for="ticket" class="d-flex align-items-center gap-2">
+                                            <input id="ticket" type="checkbox">
+                                            <p class="mb-0">Yearly Targets</p>
+                                        </label>
+                                    </li>
+                                    <li class="mb-2">
+                                        <label for="statistics" class="d-flex align-items-center gap-2">
+                                            <input id="statistics" type="checkbox">
+                                        <p class="mb-0">Tickets Statistics</p>
+                                        </label>
+                                    </li>
+                                    <li class="mb-2">
+                                        <label for="news" class="d-flex align-items-center gap-2">
+                                            <input id="news" type="checkbox">
+                                        <p class="mb-0">Latest News</p>
+                                        </label>
+                                    </li>
+                                    <li class="mb-2">
+                                        <label for="tasks" class="d-flex align-items-center gap-2">
+                                            <input id="tasks" type="checkbox">
+                                        <p class="mb-0">Latest Tasks</p>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="search" class="d-flex align-items-center gap-2">
+                                            <input id="search" type="checkbox">
+                                        <p class="mb-0">Top Search Items</p>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 backup">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-3 pt-3">
+                                    <h3>BackUp Manager</h3>
+                                    <span>Control Backup Time And Location</span>
+                                </div>
+                                <ul class="backup-list">
+                                    <li class="mb-2">
+                                        <label for="daily" class="d-flex align-items-center gap-2">
+                                            <input name="backup" id="daily" type="radio">
+                                            <p class="mb-0">Daily</p>
+                                        </label>
+                                    </li>
+                                    <li class="mb-2">
+                                        <label for="weekly" class="d-flex align-items-center gap-2">
+                                            <input name="backup" id="weekly" type="radio">
+                                            <p class="mb-0">Weekly</p>
+                                        </label>
+                                    </li>
+                                    <li class="pb-3">
+                                        <label for="monthly" class="d-flex align-items-center gap-2">
+                                            <input name="backup" id="monthly" type="radio">
+                                            <p class="mb-0">Monthly</p>
+                                        </label>
+                                    </li>
+                                </ul>
+                                <div class="bottom-select mt-3">
+                                    <div class="box px-4 py-3 d-flex flex-column justify-content-center align-items-center">
+                                        <i class="fa-solid fa-server"></i>
+                                        <span>Megaman</span>
+                                    </div>
+                                    <div class="box px-4 py-3 d-flex flex-column justify-content-center align-items-center">
+                                        <i class="fa-solid fa-server"></i>
+                                        <span>Zero</span>
+                                    </div>
+                                    <div class="box px-4 py-3 d-flex flex-column justify-content-center align-items-center">
+                                        <i class="fa-solid fa-server"></i>
+                                        <span>Sigma</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

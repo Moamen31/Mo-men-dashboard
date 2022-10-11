@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <main class="page d-block d-md-flex min-vh-100">
+        <aside class="py-2 py-md-3 px-2 mb-2 mb-md-0 hide">
+            <button class="toggle-menu d-none d-md-inline-flex position-absolute">
+                <i class="fa-solid fa-bars fs-5"></i>
+            </button>
+            <h1 class="fs-4 position-relative mb-4">Mo'men</h1>
+            <ul class="links-list d-flex justify-content-between d-md-block">
+                <li><a href="index.html"><i class="fa-solid fa-id-badge"></i>
+                        <p>Dashboard</p>
+                    </a></li>
+                <li><a href="settings.html"><i class="fa-solid fa-gear"></i>
+                        <p>Settings</p>
+                    </a></li>
+                <li><a href="profile.html"><i class="fa-solid fa-user"></i>
+                        <p>Profile</p>
+                    </a></li>
+                <li><a href="projects.html"><i class="fa-solid fa-diagram-project"></i>
+                        <p>Projects</p>
+                    </a></li>
+                <li><a href="courses.html"><i class="fa-solid fa-graduation-cap"></i>
+                        <p>Courses</p>
+                    </a></li>
+                <li><a href="friends.html"><i class="fa-solid fa-users"></i>
+                        <p>Friends</p>
+                    </a></li>
+                <li><a href="files.html"><i class="fa-solid fa-file-lines"></i>
+                        <p>Files</p>
+                    </a></li>
+                <li class="active"><a href="plans.html"><i class="fa-regular fa-credit-card"></i>
+                        <p>Plans</p>
+                    </a></li>
+            </ul>
+        </aside>
+        <section class="page-content">
+            <header>
+                <nav class="navbar ">
+                    <div class="container-fluid">
+                        <form class="d-flex position-relative ms-0 ms-md-5" role="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search" placeholder="Type a keyword" aria-label="Search">
+                        </form>
+                        <div class="user d-flex gap-3 align-items-center">
+                            <img class="img-fluid toggle-icon" src="imgs/sun.png" alt="">
+                            <div class="notification position-relative">
+                                <i class="fa-regular fa-bell"></i>
+                            </div>
+                            <img class="img-fluid" src="imgs/user-07.png" alt="">
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="plans pt-3 px-1 pb-2">
+                <div class="main-heading ps-3 pb-4">
+                    <h2 class="position-relative">Plans</h2>
+                </div>
+                <div class="container p-0 mw-100">
+                    <div class="row px-2 gx-2 gy-3">
+                        <div class="columns col-lg-4 col-md-6 plan">
+                            <div class="wrapper px-3 pt-3 pb-2 ">
+                                <div class="header mb-4 p-1" style="background-color:#22c55e;">
+                                    <div class="header-content d-flex flex-column justify-content-center align-items-center">
+                                        <span class="fw-bold">Free</span>
+                                        <div class="price">0.00</div>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Access All Text Lessons</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Access All Videos Lessons</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Appear Leaderboard</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-xmark x-icon me-1"></i> Browse Content Without Ads</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-xmark x-icon me-1"></i> Access All Assignments</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-xmark x-icon me-1"></i> Get Daily Prizes</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-xmark x-icon me-1"></i> Earn Certificates</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-xmark x-icon me-1"></i> 1 GB Space For Hosting Files</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-xmark x-icon me-1"></i> Access Badge System</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                </ul>
+                                <button class="btn mt-2" style="background-color: #22c55e;">Join</button>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 plan">
+                            <div class="wrapper px-3 pt-3 pb-2 ">
+                                <div class="header mb-4 p-1" style="background-color:#0075ff;">
+                                    <div class="header-content d-flex flex-column justify-content-center align-items-center">
+                                        <span class="fw-bold">Basic</span>
+                                        <div class="price">7.99</div>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Access All Text Lessons</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Access All Videos Lessons</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Appear Leaderboard</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Browse Content Without Ads</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Access All Assignments</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Get Daily Prizes</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Earn Certificates</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-xmark x-icon me-1"></i> 1 GB Space For Hosting Files</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-xmark x-icon me-1"></i> Access Badge System</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                </ul>
+                                <button class="btn mt-2" style="background-color: #0075ff;">Join</button>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 plan">
+                            <div class="wrapper px-3 pt-3 pb-2 ">
+                                <div class="header mb-4 p-1" style="background-color:#f59e0b;">
+                                    <div class="header-content d-flex flex-column justify-content-center align-items-center">
+                                        <span class="fw-bold">Premium</span>
+                                        <div class="price">19.99</div>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Access All Text Lessons</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Access All Videos Lessons</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Appear Leaderboard</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Browse Content Without Ads</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Access All Assignments</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Get Daily Prizes</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Earn Certificates</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> 1 GB Space For Hosting Files</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                    <li class="d-flex justify-content-between align-items-center"><p class="mb-0"><i class="fa-solid fa-check check-icon me-1"></i> Access Badge System</p> <i class="fa-solid fa-circle-info info-icon"></i></li>
+                                </ul>
+                                <p class="mt-2 text-center">This Is Your Current Plan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

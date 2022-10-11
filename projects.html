@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <main class="page d-block d-md-flex min-vh-100">
+        <aside class="py-2 py-md-3 px-2 mb-2 mb-md-0 hide">
+            <button class="toggle-menu d-none d-md-inline-flex position-absolute">
+                <i class="fa-solid fa-bars fs-5"></i>
+            </button>
+            <h1 class="fs-4 position-relative mb-4">Mo'men</h1>
+            <ul class="links-list d-flex justify-content-between d-md-block">
+                <li><a href="index.html"><i class="fa-solid fa-id-badge"></i>
+                        <p>Dashboard</p>
+                    </a></li>
+                <li><a href="settings.html"><i class="fa-solid fa-gear"></i>
+                        <p>Settings</p>
+                    </a></li>
+                <li><a href="profile.html"><i class="fa-solid fa-user"></i>
+                        <p>Profile</p>
+                    </a></li>
+                <li class="active"><a href="projects.html"><i class="fa-solid fa-diagram-project"></i>
+                        <p>Projects</p>
+                    </a></li>
+                <li><a href="courses.html"><i class="fa-solid fa-graduation-cap"></i>
+                        <p>Courses</p>
+                    </a></li>
+                <li><a href="friends.html"><i class="fa-solid fa-users"></i>
+                        <p>Friends</p>
+                    </a></li>
+                <li><a href="files.html"><i class="fa-solid fa-file-lines"></i>
+                        <p>Files</p>
+                    </a></li>
+                <li><a href="plans.html"><i class="fa-regular fa-credit-card"></i>
+                        <p>Plans</p>
+                    </a></li>
+            </ul>
+        </aside>
+        <section class="page-content">
+            <header>
+                <nav class="navbar ">
+                    <div class="container-fluid">
+                        <form class="d-flex position-relative ms-0 ms-md-5" role="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search" placeholder="Type a keyword" aria-label="Search">
+                        </form>
+                        <div class="user d-flex gap-3 align-items-center">
+                            <img class="img-fluid toggle-icon" src="imgs/sun.png" alt="">
+                            <div class="notification position-relative">
+                                <i class="fa-regular fa-bell"></i>
+                            </div>
+                            <img class="img-fluid" src="imgs/user-07.png" alt="">
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="projects py-3 px-1">
+                <div class="main-heading ps-3 pb-4">
+                    <h2 class="position-relative">Projects</h2>
+                </div>
+                <div class="container p-0 mw-100">
+                    <div class="row px-2 gx-2 gy-3">
+                        <div class="columns col-lg-4 col-md-6 elzero">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-4 pt-2">
+                                    <span class="d-block text-end">15/10/2022</span>
+                                    <div class="text">
+                                        <h5>Elzero Dashboard</h5>
+                                        <span>Elzero Dashboard Project Design And Programming And Hosting</span>
+                                    </div>
+                                </div>
+                                <div class="team-imgs mb-3">
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-02.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-03.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-07.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-04.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-02.png" alt="">
+                                    </div>
+                                </div>
+                                <ul class="skills-list text-end mb-2">
+                                    <li class="py-2">
+                                        <span>Programming</span>
+                                        <span>Design</span>
+                                        <span>Hosting</span>
+                                        <span>marketing</span>
+                                    </li>
+                                </ul>
+                                <div class="project-progress d-flex justify-content-between align-items-center">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:50%; background-color:#f44336"></div>
+                                    </div>
+                                    <span>$ 2500</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 elzero">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-4 pt-2">
+                                    <span class="d-block text-end">15/06/2022</span>
+                                    <div class="text">
+                                        <h5>Academy Portal</h5>
+                                        <span>Academy Portal Project Design And Programming And Hosting</span>
+                                    </div>
+                                </div>
+                                <div class="team-imgs mb-3">
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-03.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-04.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-02.png" alt="">
+                                    </div>
+                                </div>
+                                <ul class="skills-list text-end mb-2">
+                                    <li class="py-2">
+                                        <span>Programming</span>
+                                        <span>Design</span>
+                                    </li>
+                                </ul>
+                                <div class="project-progress d-flex justify-content-between align-items-center">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:80%; background-color:#22c55e"></div>
+                                    </div>
+                                    <span>$ 1800</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 elzero">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-4 pt-2">
+                                    <span class="d-block text-end">15/06/2022</span>
+                                    <div class="text">
+                                        <h5>Chatting Application</h5>
+                                        <span>Chatting Application Project Design</span>
+                                    </div>
+                                </div>
+                                <div class="team-imgs mb-3">
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-02.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-03.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-07.png" alt="">
+                                    </div>
+                                </div>
+                                <ul class="skills-list text-end mb-2">
+                                    <li class="py-2">
+                                        <span>Design</span>
+                                    </li>
+                                </ul>
+                                <div class="project-progress d-flex justify-content-between align-items-center">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:100%; background-color:#0075ff"></div>
+                                    </div>
+                                    <span>$ 950</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 elzero">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-4 pt-2">
+                                    <span class="d-block text-end">15/07/2022</span>
+                                    <div class="text">
+                                        <h5>Ahmed Dashboard</h5>
+                                        <span>Elzero Dashboard Project Design And Programming And Hosting</span>
+                                    </div>
+                                </div>
+                                <div class="team-imgs mb-3">
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-02.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-03.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-07.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-04.png" alt="">
+                                    </div>
+                                </div>
+                                <ul class="skills-list text-end mb-2">
+                                    <li class="py-2">
+                                        <span>Programming</span>
+                                        <span>Design</span>
+                                        <span>Hosting</span>
+                                        <span>marketing</span>
+                                    </li>
+                                </ul>
+                                <div class="project-progress d-flex justify-content-between align-items-center">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:60%; background-color:#22c55e"></div>
+                                    </div>
+                                    <span>$ 1700</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 elzero">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-4 pt-2">
+                                    <span class="d-block text-end">15/08/2022</span>
+                                    <div class="text">
+                                        <h5>Ahmed Portal</h5>
+                                        <span>Ahmed Portal Project Design And Programming</span>
+                                    </div>
+                                </div>
+                                <div class="team-imgs mb-3">
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-02.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-03.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-07.png" alt="">
+                                    </div>
+                                </div>
+                                <ul class="skills-list text-end mb-2">
+                                    <li class="py-2">
+                                        <span>Programming</span>
+                                        <span>Design</span>
+                                    </li>
+                                </ul>
+                                <div class="project-progress d-flex justify-content-between align-items-center">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:70%; background-color:#22c55e"></div>
+                                    </div>
+                                    <span>$ 850</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 elzero">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-4 pt-2">
+                                    <span class="d-block text-end">20/10/2022</span>
+                                    <div class="text">
+                                        <h5>Mohammed Dashboard</h5>
+                                        <span>Mohammed Dashboard Project Design</span>
+                                    </div>
+                                </div>
+                                <div class="team-imgs mb-3">
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-02.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-03.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-07.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-03.png" alt="">
+                                    </div>
+                                </div>
+                                <ul class="skills-list text-end mb-2">
+                                    <li class="py-2">
+                                        <span>Programming</span>
+                                        <span>Design</span>
+                                        <span>Hosting</span>
+                                        <span>marketing</span>
+                                    </li>
+                                </ul>
+                                <div class="project-progress d-flex justify-content-between align-items-center">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:40%; background-color:#f44336"></div>
+                                    </div>
+                                    <span>$ 1950</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 elzero">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-4 pt-2">
+                                    <span class="d-block text-end">10/12/2022</span>
+                                    <div class="text">
+                                        <h5>Mohammed Portal</h5>
+                                        <span>Mohammed Portal Project Design And Programming</span>
+                                    </div>
+                                </div>
+                                <div class="team-imgs mb-3">
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-02.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-03.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-07.png" alt="">
+                                    </div>
+                                </div>
+                                <ul class="skills-list text-end mb-2">
+                                    <li class="py-2">
+                                        <span>Design</span>
+                                        <span>Programming</span>
+                                    </li>
+                                </ul>
+                                <div class="project-progress d-flex justify-content-between align-items-center">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:70%; background-color:#22c55e"></div>
+                                    </div>
+                                    <span>$ 1650</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 elzero">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-4 pt-2">
+                                    <span class="d-block text-end">05/12/2022</span>
+                                    <div class="text">
+                                        <h5>Ahmed Application</h5>
+                                        <span>Mohammed Application Project Design</span>
+                                    </div>
+                                </div>
+                                <div class="team-imgs mb-3">
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-02.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-03.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-07.png" alt="">
+                                    </div>
+                                </div>
+                                <ul class="skills-list text-end mb-2">
+                                    <li class="py-2">
+                                        <span>Design</span>
+                                    </li>
+                                </ul>
+                                <div class="project-progress d-flex justify-content-between align-items-center">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:60%; background-color:#22c55e"></div>
+                                    </div>
+                                    <span>$ 950</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns col-lg-4 col-md-6 elzero">
+                            <div class="wrapper pb-4  px-3">
+                                <div class="col-header mb-4 pt-2">
+                                    <span class="d-block text-end">15/09/2022</span>
+                                    <div class="text">
+                                        <h5>Mohammed Application</h5>
+                                        <span>Mohammed Application Project Design</span>
+                                    </div>
+                                </div>
+                                <div class="team-imgs mb-3">
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-02.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-03.png" alt="">
+                                    </div>
+                                    <div class="img">
+                                        <img class="img-fluid" src="imgs/user-07.png" alt="">
+                                    </div>
+                                </div>
+                                <ul class="skills-list text-end mb-2">
+                                    <li class="py-2">
+                                        <span>Design</span>
+                                    </li>
+                                </ul>
+                                <div class="project-progress d-flex justify-content-between align-items-center">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 80%; background-color:#22c55e"></div>
+                                    </div>
+                                    <span>$ 950</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

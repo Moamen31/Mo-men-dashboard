@@ -1,0 +1,82 @@
+.profile{
+    &-info{
+        .user{
+            img{
+                width: 120px;
+            }
+            h3{
+                font-size: 16px;
+                color: $mainColor;
+                font-weight: 600;
+            }
+            p{
+                font-size: 14px;
+            }
+            p, span{
+                color: $semiGreyColor;
+            }
+            .progress{
+                width: 65%;
+                height: 6px;
+                .progress-bar{
+                    width: 70%;
+                    border-radius: $borderRadius; 
+                }
+            }
+            .star-icons{
+                svg{
+                    color: $yellowColor;
+                    font-size: 14px;
+                }
+            }
+            span{
+                font-size: 13px;
+            }
+        }
+        .user-informations{
+            flex: 1;
+            h4{
+                font-size: 17px;
+                color: $semiGreyColor;
+            }
+            ul{
+                li{
+                    color: $mainColor;
+                    font-size: 14px;
+                    font-weight: 500;
+                    span{
+                        font-size: 15px;
+                        color: $semiGreyColor;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+    .activity{
+        &-list{
+            li{
+                padding: 8px;
+                transition: $transition;
+                &:hover{
+                    background-color: #eee;
+                    border-radius: $borderRadius;
+                }
+                .icon{
+                    width: 65px;
+                    padding: 13px;
+                    background-color: $semiGreyColor;
+                    border-radius: 50%;
+                }
+                h5{
+                    color: $mainColor;
+                    font-size: 16px;
+                }
+                p{
+                    color: $semiGreyColor;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
